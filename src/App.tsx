@@ -8,14 +8,9 @@ import { Container } from "./styles/global";
 
 function App() {
   return (
-    <Container>
+   
       <Profile />
-      <Educations />
-      <Informations />
-      <Technologies />
-      <Experiences />
-    </Container>
-
+   
   );
 }
 

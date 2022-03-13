@@ -1,9 +1,11 @@
-import { Informations} from "./styles";
+import { Container} from "./styles";
 
-function Info() {
+function Informations() {
   return (
  
-    <Informations/>
+    <Container>
+      
+    </Container>
 
 
 
@@ -11,4 +13,4 @@ function Info() {
   );
 }
 
-export default Info;
+export default Informations;

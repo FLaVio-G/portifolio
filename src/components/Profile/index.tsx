@@ -1,9 +1,18 @@
-import { Profile } from "./styles";
+import { Container, Content } from "./styles";
+import flavio from "../../assets/flavio.jpg";
 
-function Prof() {
+function Profile() {
   return (
- 
-    <Profile/>
+
+    <Container>
+      <Content>
+        <img src={flavio} />
+        <p className="MyName">Flávio Gabriel de Andrade Viana</p>
+        <p className="Formation">Front-End Developer React js | Bachelor in Information Systems</p>
+
+      </Content>
+
+    </Container>
 
 
 

@@ -1,14 +1,14 @@
-import { Education } from "./styles";
+import { Container} from "./styles";
 
-function Edu() {
+function  Education() {
   return (
  
-    <Education/>
-
-
+    <Container>
+      
+    </Container>
 
 
   );
 }
 
-export default Edu;
+export default  Education;

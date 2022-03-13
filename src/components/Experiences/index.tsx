@@ -1,9 +1,11 @@
-import { Expeiences } from "./styles";
+import { Container } from "./styles";
 
-function Expe() {
+function Expeiences () {
   return (
  
-    <Expeiences/>
+    <Container>
+      
+    </Container>
 
 
 
@@ -11,4 +13,4 @@ function Expe() {
   );
 }
 
-export default Expe;
+export default Expeiences ;

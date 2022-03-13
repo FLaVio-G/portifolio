@@ -1,9 +1,11 @@
-import { Technologies } from "./styles";
+import { Container } from "./styles";
 
-function Techn() {
+function Technologies() {
   return (
  
-    <Technologies/>
+    <Container>
+      
+    </Container>
 
 
 
@@ -11,4 +13,4 @@ function Techn() {
   );
 }
 
-export default Techn;
+export default Technologies;
