@@ -9,9 +9,6 @@ export const Container= styled.div`
   padding: 2.5rem 1rem;
   background-color: #837E9F;
   
-  `
-
-export const Content= styled.div`
   display: flex;
   max-width: 200px; 
   margin:0 auto;
