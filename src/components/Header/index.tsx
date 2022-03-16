@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import flavio from "../../assets/flavio.jpg";
 
-function Profile() {
+function Header() {
   return (
 
     <Container>
@@ -20,4 +20,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default Header;
