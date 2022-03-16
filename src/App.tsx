@@ -2,15 +2,16 @@
 import Educations from "./components/Educations";
 import Experiences from "./components/Experiences";
 import Informations from "./components/Informations";
-import Profile from "./components/Header";
+import Header from "./components/Header";
 import Technologies from "./components/Technologies";
-import { Container } from "./styles/global";
+import { GlobalStyle } from "./styles/global";
 
 function App() {
   return (
-   
-      <Profile />
-   
+    <>
+      <Header />
+      <GlobalStyle />
+    </>
   );
 }
 
