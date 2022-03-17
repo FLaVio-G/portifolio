@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <Header />
+      <Informations />
       <GlobalStyle />
     </>
   );
