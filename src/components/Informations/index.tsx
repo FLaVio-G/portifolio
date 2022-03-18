@@ -1,4 +1,5 @@
-import { Container, Information } from "./styles";
+import { Container, Information, ImageF, ImageUser } from "./styles";
+import User from '../../assets/flavio.jpg';
 
 function Informations() {
   return (
@@ -11,6 +12,9 @@ function Informations() {
         estou estudando desenvolvimento web. Tenho conhecimento em HTML/CSS,
         Javascript, Typescript. E também Frameworks Vue e React.
         <button>Entre em contato</button>
+        <ImageF>
+            <ImageUser src={User}/>
+            </ImageF>
       </Information >
 
     </Container>

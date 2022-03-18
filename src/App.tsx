@@ -1,15 +1,15 @@
 
-import Educations from "./components/Educations";
+import Educations from "./components/Projects";
 import Experiences from "./components/Experiences";
 import Informations from "./components/Informations";
-import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import Technologies from "./components/Technologies";
 import { GlobalStyle } from "./styles/global";
 
 function App() {
   return (
     <>
-      <Header />
+      <NavBar />
       <Informations />
       <GlobalStyle />
     </>

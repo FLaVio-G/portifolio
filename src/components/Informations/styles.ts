@@ -1,22 +1,28 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-max-width: 1120px;
-margin: 0 auto;
-
 display: flex;
-align-items: center;
 background: red;
-  `
+align-items: center;
+  `;
 
 export const Information = styled.div`
 
 margin: 0 auto;
 
-display: flex;
-align-items: center;
+  `;
 
-  `
+export const ImageF= styled.div`
+
+
+  `;
+  export const ImageUser = styled.img`
+
+
+
+    `;
+
+
 
 
 

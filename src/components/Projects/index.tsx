@@ -1,6 +1,6 @@
 import { Container} from "./styles";
 
-function  Education() {
+function Projects() {
   return (
  
     <Container>
@@ -11,4 +11,4 @@ function  Education() {
   );
 }
 
-export default  Education;
+export default  Projects;
