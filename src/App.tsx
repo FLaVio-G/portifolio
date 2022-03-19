@@ -1,6 +1,6 @@
 
 import Educations from "./components/Projects";
-import Experiences from "./components/Experiences";
+import About from "./components/About";
 import Informations from "./components/Informations";
 import NavBar from "./components/NavBar";
 import Technologies from "./components/Technologies";
@@ -11,6 +11,7 @@ function App() {
     <>
       <NavBar />
       <Informations />
+      <About />
       <GlobalStyle />
     </>
   );

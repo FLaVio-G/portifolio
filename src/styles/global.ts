@@ -5,13 +5,11 @@ export const GlobalStyle = createGlobalStyle`
 :root {
     --background: #202833;
 
-
 }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   
 }
 
 html {
