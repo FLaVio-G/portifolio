@@ -12,9 +12,9 @@ function Informations() {
         estou estudando desenvolvimento web. Tenho conhecimento em HTML/CSS,
         Javascript, Typescript. E também Frameworks Vue e React.
         <button>Entre em contato</button>
-        <ImageF>
+        {/* <ImageF>
             <ImageUser src={User}/>
-            </ImageF>
+            </ImageF> */}
       </Information >
 
     </Container>

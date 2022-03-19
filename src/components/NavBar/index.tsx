@@ -1,31 +1,40 @@
-import { Container, Content, Link, OptionMenu } from "./styles";
+import { Container, Header, Link, Name, OptionMenu } from "./styles";
 import flavio from "../../assets/flavio.jpg";
 
 function NavBar() {
   return (
 
     <Container>
-     <Content>
-      
-        <p className="MyName"> Flávio Viana </p>
-        
-        <header>
+     
+        <Name>
+          <p className="MyName"> Flávio Viana </p>
+        </Name>
 
-        {/* <Link to='informations' smooth={true} duration={1000}> */}
-        <OptionMenu>Perfil</OptionMenu>
+        <Header>
 
-        {/* <Link to='Experiences' smooth={true} duration={1000}> */}
-        <OptionMenu>Formação</OptionMenu>
+          <Link>
+            {/* <Link to='informations' smooth={true} duration={1000}> */}
+            <OptionMenu>Perfil</OptionMenu>
+          </Link>
 
-        {/* <Link to='Technologies' smooth={true} duration={1000}> */}
-        <OptionMenu>Habilidades</OptionMenu>
+          <Link>
+            {/* <Link to='Experiences' smooth={true} duration={1000}> */}
+            <OptionMenu>Formação</OptionMenu>
+          </Link>
 
-        {/* <Link to='Projects' smooth={true} duration={1000}> */}
-        <OptionMenu>Trabalhos</OptionMenu>
+          <Link>
+            {/* <Link to='Technologies' smooth={true} duration={1000}> */}
+            <OptionMenu>Habilidades</OptionMenu>
+          </Link>
+
+          <Link>
+            {/* <Link to='Projects' smooth={true} duration={1000}> */}
+            <OptionMenu>Trabalhos</OptionMenu>
+          </Link>
 
 
-        </header>
-        </Content>
+        </Header>
+  
     </Container>
 
 
