@@ -53,13 +53,6 @@ export const Gbutton = styled.div`
     }
 `;
 
-export const ImageF = styled.div`
-
-
-  `;
-export const ImageUser = styled.img`
-
-    `;
 
 
 
