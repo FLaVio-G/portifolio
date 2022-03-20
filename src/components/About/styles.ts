@@ -1,7 +1,7 @@
 import { BsGithub } from 'react-icons/bs';
 import styled from 'styled-components';
 
-export const Container= styled.div`
+export const Container = styled.div`
 width: 100%;
 height: 100vh;
 display: flex;
@@ -10,29 +10,39 @@ padding:0 5rem;
  
   `;
 
-export const Wrapper= styled.div`
+export const Wrapper = styled.div`
 
 background: green;
 margin-top: 1.5rem;
  
   `;
-  export const ImageArea= styled.div`
+export const ImageArea = styled.div`
   background: green;
  
   `;
-  export const AreaInfo= styled.div`
+export const AreaInfo = styled.div`
  background: blue;
  margin-top: 1.5rem;
+ width: 60rem;
   `;
-  export const Title = styled.div`
+
+export const Title = styled.div`
   color: white;
   margin-top: 5rem;
- 
+  font-size:3rem;
   `;
-  export const MoreInfo = styled.div`
+  export const Title2 = styled.div`
+  color: white;
+  margin-top: 1rem;
+  font-size:3rem;
+  `;
+
+
+export const MoreInfo = styled.div`
   color: white;
   margin-top: 1.5rem;
   font-size:1.5rem;
+  text-align: justify;
   `;
 
 export const InfoDetail = styled.div`
@@ -40,8 +50,8 @@ export const InfoDetail = styled.div`
   margin-top: 1.5rem;
   font-size:1rem;
  
-  `
- 
+  `;
+
 
 export const ImageF = styled.div`
 
@@ -54,9 +64,9 @@ border-radius: 75%;
 border:4px solid #999;
   `;
 
-  
 
-export const BarDetail= styled.div`
+
+export const BarDetail = styled.div`
 display: flex;
 align-items: center;
 flex-direction: row;
