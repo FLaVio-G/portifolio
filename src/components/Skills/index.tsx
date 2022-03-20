@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 
-function Technologies() {
+function Skills() {
   return (
  
     <Container>
@@ -13,4 +13,4 @@ function Technologies() {
   );
 }
 
-export default Technologies;
+export default Skills;

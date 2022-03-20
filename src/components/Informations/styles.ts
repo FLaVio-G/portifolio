@@ -20,15 +20,17 @@ margin: 10rem;
 export const Description = styled.div`
 width: 45rem;
 color: #E6E7F4;
+opacity: 0.5;
+font-size:2.3rem;
 
   `;
 
 export const Formation = styled.div`
-font-size:1rem;
+font-size:1.5rem;
 color: red;
 `;
 export const Name = styled.div`
-font-size:2rem;
+font-size:3.5rem;
 color: white;
 `;
 

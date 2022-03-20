@@ -3,7 +3,7 @@ import Educations from "./components/Projects";
 import About from "./components/About";
 import Informations from "./components/Informations";
 import NavBar from "./components/NavBar";
-import Technologies from "./components/Technologies";
+import Technologies from "./components/Skills";
 import { GlobalStyle } from "./styles/global";
 
 function App() {

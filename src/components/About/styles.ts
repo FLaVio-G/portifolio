@@ -7,6 +7,7 @@ height: 100vh;
 display: flex;
 align-items: center;
 padding:0 5rem;
+justify-content: space-evenly;
  
   `;
 
@@ -24,17 +25,18 @@ export const AreaInfo = styled.div`
  background: blue;
  margin-top: 1.5rem;
  width: 60rem;
+ 
   `;
 
 export const Title = styled.div`
   color: white;
   margin-top: 5rem;
-  font-size:3rem;
+  font-size:2.5rem;
   `;
   export const Title2 = styled.div`
   color: white;
   margin-top: 1rem;
-  font-size:3rem;
+  font-size:2rem;
   `;
 
 
@@ -43,6 +45,7 @@ export const MoreInfo = styled.div`
   margin-top: 1.5rem;
   font-size:1.5rem;
   text-align: justify;
+  letter-spacing: 0.1rem;
   `;
 
 export const InfoDetail = styled.div`
