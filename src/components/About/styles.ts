@@ -1,3 +1,4 @@
+import { BsGithub } from 'react-icons/bs';
 import styled from 'styled-components';
 
 export const Container= styled.div`
@@ -25,35 +26,48 @@ margin-top: 1.5rem;
   `;
   export const Title = styled.div`
   color: white;
-  margin-top: 1.5rem;
+  margin-top: 5rem;
  
   `;
   export const MoreInfo = styled.div`
   color: white;
   margin-top: 1.5rem;
+  font-size:1.5rem;
   `;
 
 export const InfoDetail = styled.div`
   color: white;
   margin-top: 1.5rem;
+  font-size:1rem;
  
   `
-  export const SubDetail = styled.div`
-  color: white;
-  margin-top: 1.5rem;
-  `
+ 
 
 export const ImageF = styled.div`
 
 
 `;
 export const ImageUser = styled.img`
-height: 15rem;
-width: 15rem;
-
+width: 13rem;
+height: 13rem;
+border-radius: 75%;
+border:4px solid #999;
   `;
 
+  
 
+export const BarDetail= styled.div`
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content:space-between;
+  `;
 
+export const SubDetail = styled.div`
+color: white;
+margin-top: 1.5rem;
+font-size:1rem;
+
+`
 
 
