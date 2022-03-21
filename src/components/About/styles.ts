@@ -13,12 +13,11 @@ justify-content: space-evenly;
 
 export const Wrapper = styled.div`
 
-background: green;
 margin-top: 1.5rem;
  
   `;
 export const ImageArea = styled.div`
-  background: green;
+
  
   `;
 export const AreaInfo = styled.div`
@@ -33,7 +32,7 @@ export const Title = styled.div`
   margin-top: 5rem;
   font-size:2.5rem;
   `;
-  export const Title2 = styled.div`
+export const Title2 = styled.div`
   color: white;
   margin-top: 1rem;
   font-size:2rem;
@@ -56,32 +55,46 @@ export const InfoDetail = styled.div`
  
   `;
 
-
 export const ImageF = styled.div`
-
 
 `;
 export const ImageUser = styled.img`
-width: 13rem;
-height: 13rem;
-border-radius: 75%;
-border:4px solid #999;
+border-radius: 100%;
+width: 500px;
+height: 500px;
+border-color: #202833;
+outline: 0.3rem solid red;
+border: 1rem outset #202833;
+
+
   `;
 
-
-
 export const BarDetail = styled.div`
-display: flex;
-align-items: center;
-flex-direction: row;
-justify-content:space-between;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  letter-spacing: 1rem;
+  opacity: 0.8;
+  margin-top: 1.5rem;
+
   `;
 
 export const SubDetail = styled.div`
 color: white;
-margin-top: 1.5rem;
+margin-left: 1rem;
+margin-right:1rem;
 font-size:1rem;
+`;
 
-`
+export const MoreInfo2 = styled.div`
+margin-top: 2rem;
+display: flex;
+font-size:2.5rem;
+justify-content:center;
+color: white;
+`;
+
+
+
 
 

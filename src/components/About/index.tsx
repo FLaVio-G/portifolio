@@ -1,4 +1,4 @@
-import { AreaInfo, BarDetail, Container, ImageArea, ImageF, ImageUser, InfoDetail, MoreInfo, SubDetail, Title, Wrapper, Title2 } from "./styles";
+import { AreaInfo, BarDetail, Container, ImageArea, ImageF, ImageUser, InfoDetail, MoreInfo, SubDetail, Title, Wrapper, Title2, MoreInfo2 } from "./styles";
 
 import { BsGithub } from 'react-icons/bs';
 import { FaLinkedin } from 'react-icons/fa';
@@ -15,14 +15,21 @@ function About() {
 
       <Wrapper>
         <ImageArea>
+        
           <ImageF>
             <ImageUser src={User} />
           </ImageF>
+          
+          <MoreInfo2>Flávio Viana</MoreInfo2>
+
           <BarDetail>
-          <SubDetail> <BsGithub /> </SubDetail>
-          <SubDetail> <FaLinkedin /> </SubDetail>
-          <SubDetail> < HiOutlineMailOpen /> </SubDetail>
+
+          <SubDetail> <BsGithub size={50} /> </SubDetail>
+          <SubDetail> <FaLinkedin size={50} /> </SubDetail>
+          <SubDetail> < HiOutlineMailOpen size={50} /> </SubDetail>
+
           </BarDetail>
+          
         </ImageArea>
       </Wrapper>
 
@@ -37,7 +44,7 @@ function About() {
           Olá meu nome é Flávio, sou apaixonado por tecnologia. Meu primeiro contato com esse mundo foi quando
           meu avô comprou um computador, pórem não veio com sistema operacional instalado, a partir daí começou essa saga, sendo o primeiro
           checkpoint Instalar o windows xp!
-          
+
           Atualmente sou formado em Sistemas de informação, estou estudando desenvolvimento Front-end para desenvolvimento de projetos web.
           Através de projetos publicados no GitHub demonstro meu conhecimento em : ReactJS, Frameworks para CSS, como Styled-Components.
           Espero como desenvolvedor ser além dos códigos, construir relações de cooperatividade no ambiente de trabalho, além de 
