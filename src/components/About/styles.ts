@@ -46,6 +46,7 @@ export const MoreInfo = styled.div`
   font-size:1.5rem;
   text-align: justify;
   letter-spacing: 0.1rem;
+  opacity: 0.8;
   `;
 
 export const InfoDetail = styled.div`

@@ -37,23 +37,28 @@ color: white;
 
 
 export const Gbutton = styled.div`
-    width: 11rem;
-    padding: 0 1.5rem;
-    height: 1.4rem;
-    background: darkgoldenrod;
-    color: #FFF;
-    border-radius: 0.25rem;
-    border: 0;
-    font-size: 1rem;
-    transition: filter 0.2s;
-    margin-top: 1.5rem;
-    align-items: center;
+  position: relative;
+  width: 37%;
+  display: block;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #ff7675;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+
 
     &:hover {
         filter:brightness(0.9);
 
     }
+ 
 `;
+
+
 
 
 

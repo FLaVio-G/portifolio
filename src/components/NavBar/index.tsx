@@ -12,26 +12,27 @@ function NavBar() {
 
         <Header>
 
+        <Link>
+            {/* <Link to='Technologies' smooth={true} duration={1000}> */}
+            <OptionMenu>Home</OptionMenu>
+          </Link>
+
           <Link>
             {/* <Link to='informations' smooth={true} duration={1000}> */}
-            <OptionMenu>Perfil</OptionMenu>
+            <OptionMenu>Sobre</OptionMenu>
           </Link>
 
           <Link>
             {/* <Link to='Experiences' smooth={true} duration={1000}> */}
-            <OptionMenu>Formação</OptionMenu>
-          </Link>
-
-          <Link>
-            {/* <Link to='Technologies' smooth={true} duration={1000}> */}
             <OptionMenu>Habilidades</OptionMenu>
           </Link>
 
           <Link>
-            {/* <Link to='Projects' smooth={true} duration={1000}> */}
-            <OptionMenu>Trabalhos</OptionMenu>
+            {/* <Link to='Technologies' smooth={true} duration={1000}> */}
+            <OptionMenu>Portifolio</OptionMenu>
           </Link>
 
+        
 
         </Header>
   

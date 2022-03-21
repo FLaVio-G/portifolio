@@ -10,6 +10,7 @@ export const Container = styled.div`
   position: fixed;
   display: flex;
   z-index: 999;
+  background:#202833;
   
   
  

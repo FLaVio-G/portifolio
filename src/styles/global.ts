@@ -22,6 +22,18 @@ html {
     }
 }
 
+body, input, textarea, button {
+    font: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2 , h3, h4, h5, h6,div, link{
+    
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+}
+
+
 body {
     background: var(--background);
     -webkit-font-smoothing: antialiased;

@@ -35,8 +35,9 @@ function About() {
         </Title2>
         <MoreInfo>
           Olá meu nome é Flávio, sou apaixonado por tecnologia. Meu primeiro contato com esse mundo foi quando
-          meu Avô comprou um computador, pórem não tinha sistema operacional instalado, a partir daí começou essa saga, sendo o primeiro
-          checkpoint "Instalar o windows xp!
+          meu avô comprou um computador, pórem não veio com sistema operacional instalado, a partir daí começou essa saga, sendo o primeiro
+          checkpoint Instalar o windows xp!
+          
           Atualmente sou formado em Sistemas de informação, estou estudando desenvolvimento Front-end para desenvolvimento de projetos web.
           Através de projetos publicados no GitHub demonstro meu conhecimento em : ReactJS, Frameworks para CSS, como Styled-Components.
           Espero como desenvolvedor ser além dos códigos, construir relações de cooperatividade no ambiente de trabalho, além de 
