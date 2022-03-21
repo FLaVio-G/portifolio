@@ -30,7 +30,7 @@ export const Title = styled.div`
   display: flex;
   justify-content: start;
   color: white;
-  font-size:2.5rem;
+  font-size: 5rem;
   `;
 
 export const Title2 = styled.div`

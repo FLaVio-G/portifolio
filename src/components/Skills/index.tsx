@@ -4,7 +4,7 @@ import { DiCss3 } from 'react-icons/di';
 import { SiStyledcomponents } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiSass } from 'react-icons/di';
-import { FaReact} from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
 import { FiFigma } from 'react-icons/fi';
 import { SiInkscape } from 'react-icons/si';
 
@@ -17,89 +17,56 @@ function Skills() {
       </Title>
       <Wrapper>
 
+
         <SkillLane>
 
-          <FaHtml5 />
+          <FaHtml5 size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <DiCss3 />
+          <DiCss3 size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <SiStyledcomponents />
+          <SiStyledcomponents size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <IoLogoJavascript />
+          <IoLogoJavascript size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <DiSass />
+          <DiSass size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <FaReact />
+          <FaReact size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <FiFigma />
+          <FiFigma size={100} color="red" />
 
         </SkillLane>
 
         <SkillLane>
 
-          <FaHtml5 />
+          <SiInkscape size={100} color="red" />
 
         </SkillLane>
 
-        <SkillLane>
 
-          <FaHtml5 />
-
-        </SkillLane>
-
-        <SkillLane>
-
-          <SiInkscape />
-
-        </SkillLane>
-
-        <SkillLane>
-
-<FaHtml5 />
-
-</SkillLane>
-
-<SkillLane>
-
-<FaHtml5 />
-
-</SkillLane>
-
-<SkillLane>
-
-<FaHtml5 />
-
-</SkillLane>
-
-<SkillLane>
-
-<FaHtml5 />
-
-</SkillLane>
       </Wrapper>
 
 

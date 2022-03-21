@@ -9,6 +9,7 @@ justify-content:center;
 align-items:center;
   `
 export const Wrapper = styled.div`
+    margin-top:1rem;
     width: 55%;
     display: flex;
     flex-wrap: wrap;
@@ -28,7 +29,6 @@ export const SkillLane = styled.div`
   justify-content: center;
   margin:0 auto;
   padding: 2.5rem 1rem;
-  background-color: #837E9F;
   `;
 
 export const Title = styled.div`
@@ -37,7 +37,6 @@ export const Title = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
-    background-color:gray;
   `;
 
 
