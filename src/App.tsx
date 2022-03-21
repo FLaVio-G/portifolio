@@ -1,10 +1,11 @@
 
-import Educations from "./components/Projects";
+
 import About from "./components/About";
 import Informations from "./components/Informations";
 import NavBar from "./components/NavBar";
-import Technologies from "./components/Skills";
+
 import { GlobalStyle } from "./styles/global";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <NavBar />
       <Informations />
       <About />
+      <Skills />
+
+      
       <GlobalStyle />
     </>
   );

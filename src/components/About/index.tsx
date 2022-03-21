@@ -28,7 +28,7 @@ function About() {
 
       <AreaInfo>
         <Title>
-          SOBRE
+          Sobre
         </Title>
         <Title2>
           Conheça um pouco sobre a minha história
