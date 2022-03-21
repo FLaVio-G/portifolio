@@ -4,7 +4,9 @@ function Projects() {
   return (
  
     <Container>
+
     <Title>Portfolio</Title>
+    
     <Card>
       <Subtitle> Em breve</Subtitle>
 
