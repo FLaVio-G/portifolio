@@ -1,16 +1,43 @@
-import { Card, Container, Subtitle, Title} from "./styles";
+import { Card, Container, Subtitle, Title, Wrapper} from "./styles";
 
 function Projects() {
   return (
  
     <Container>
 
-    <Title>Portfolio</Title>
-    
+      <Title>Portifolio</Title> 
+
+      <Wrapper>
+
     <Card>
-      <Subtitle> Em breve</Subtitle>
+      Em breve
+      {/* <Subtitle> Aguarde</Subtitle> */}
 
     </Card>
+
+      
+    <Card>
+      Em breve
+      {/* <Subtitle> Aguarde</Subtitle> */}
+
+    </Card>
+
+      
+    <Card>
+      Em breve
+      {/* <Subtitle> Aguarde</Subtitle> */}
+
+    </Card>
+
+    <Card>
+      Em breve
+      {/* <Subtitle> Aguarde</Subtitle> */}
+
+    </Card>
+
+    
+
+    </Wrapper>
 
     </Container>
 

@@ -8,12 +8,12 @@ display: flex;
 align-items: center;
 padding:0 5rem;
 justify-content: space-evenly;
+margin-top: 15rem;
  
   `;
 
 export const Wrapper = styled.div`
 
-margin-top: 1.5rem;
  
   `;
 export const ImageArea = styled.div`
@@ -21,7 +21,7 @@ export const ImageArea = styled.div`
  
   `;
 export const AreaInfo = styled.div`
- margin-top: 1.5rem;
+ 
  width: 60rem;
  
   `;

@@ -2,41 +2,50 @@ import styled from 'styled-components';
 
 export const Container = styled.nav`
     width: 100%;
-    height: 100vh;
-    padding: 4.5rem 5rem;
+    margin-top: 15rem;
     display: flex;
     flex-direction: column;
-    letter-spacing: 1px;
-    gap: 1rem;
+    align-items: center;
+
+    
   `;
 
-export const Title = styled.nav`
-     display: flex;
+
+export const Card = styled.nav`
+    display: flex;
+    max-width: 1200px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background:#F05F59;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    align-items: center;
+    justify-content: center;
+  `;
+
+export const Subtitle = styled.nav`
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const Wrapper = styled.nav`
+    margin-top:1rem;
+    display: flex;
+    width: 55%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+`;
+
+export const Title = styled.div`
+    display: flex;
     font-size: 5rem;
     justify-content: center;
     align-items: center;
     color: white;
-    background-color:gray;
-`;
-
-export const Card = styled.nav`
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
-    background:red;
-
   `;
-
-export const Subtitle= styled.nav`
-  display: flex;
-    font-size: 5rem;
-    justify-content: center;
-    align-items: center;
- 
-`;
 
 
 

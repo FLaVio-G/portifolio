@@ -6,6 +6,7 @@ height: 100vh;
 display: flex;
 align-items: center;
 padding:0 5rem;
+
   `;
 
 export const Information = styled.div`
