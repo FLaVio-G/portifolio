@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import { GlobalStyle } from "./styles/global";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import LowBar from "./components/LowBar";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
-
-      
+      <LowBar/>
+    
       <GlobalStyle />
     </>
   );

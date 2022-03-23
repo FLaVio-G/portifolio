@@ -1,55 +1,32 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`  
-  width: 100%;
-  height: 4rem;
-  padding: 0 5rem;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 5rem;
-  position: fixed;
-  display: flex;
-  z-index: 999;
-  background:#202833;
-  
-  
- 
+export const Container = styled.nav`
+    width: 100%;
+    height: 10rem;
+    margin-top: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    opacity:1;
+    background:#10141A;
+    border-bottom: solid;
+    width: auto;
+    border-bottom-color:red;
 
-    .MyName{
-      font-size: 23px;
-      font-weight: bold;
-    }
-    .Description{
-      font-size: 13px;
-      font-weight: small;
-    }
+    
   `;
 
-export const Header = styled.div`
+export const Title = styled.div`
+width: 100%;
 display: flex;
-`;
+justify-content: center;
+align-items: center;
+color: #E6E7F4;
+opacity: 0.5;
+font-size:1.3rem;
 
+  `;
 
-
-export const Link = styled.div`
-
-
-`;
-
-export const OptionMenu = styled.div`
-padding: 0 1.2rem;
-font-size: 1rem;
-color: white;
-
-
-`;
-
-export const Name = styled.div`
-padding: 0 1.2rem;
-font-size: 1rem;
- color: white;
-  
-`
 
 
 
