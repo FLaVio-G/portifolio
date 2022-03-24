@@ -1,7 +1,9 @@
-import { Container, Header, Link, Name, OptionMenu } from "./styles";
-import flavio from "../../assets/flavio.jpg";
+import { Container, Header, Name, OptionMenu } from "./styles";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 function NavBar() {
+  
   return (
 
     <Container>
@@ -12,23 +14,7 @@ function NavBar() {
 
         <Header>
 
-        <Link>
-            {/* <Link to='Technologies' smooth={true} duration={1000}> */}
-            <OptionMenu>Home</OptionMenu>
-          </Link>
-
-          <Link>
-            {/* <Link to='informations' smooth={true} duration={1000}> */}
-            <OptionMenu>Sobre</OptionMenu>
-          </Link>
-
-          <Link>
-            {/* <Link to='Experiences' smooth={true} duration={1000}> */}
-            <OptionMenu>Habilidades</OptionMenu>
-          </Link>
-
-          <Link>
-            {/* <Link to='Technologies' smooth={true} duration={1000}> */}
+            <Link to='Projects' smooth={true} duration={1000}>
             <OptionMenu>Portifolio</OptionMenu>
           </Link>
 

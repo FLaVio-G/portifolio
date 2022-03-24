@@ -42,8 +42,8 @@ function About() {
         </Title2>
         <MoreInfo>
           Olá meu nome é Flávio, sou apaixonado por computação. Meu primeiro contato com esse mundo foi quando
-          meu avô comprou um computador para minha família, pórem não veio com sistema operacional instalado, a partir daí começou essa saga, sendo o primeiro
-          checkpoint Instalar o windows xp!
+          meu avô comprou um computador para minha família, pórem não veio com sistema operacional instalado, a partir daí começou essa saga, sendo a primeira
+          fase desse jogo, instalar o windows XP!
           <br/>
           <br/>
           Atualmente sou formado em Sistemas de informação, estou estudando desenvolvimento Front-end para desenvolvimento de projetos web.

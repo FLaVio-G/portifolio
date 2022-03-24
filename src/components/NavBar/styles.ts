@@ -13,6 +13,7 @@ export const Container = styled.div`
   background:#202833;
   
   
+  
  
 
     .MyName{
@@ -31,10 +32,7 @@ display: flex;
 
 
 
-export const Link = styled.div`
 
-
-`;
 
 export const OptionMenu = styled.div`
 padding: 0 1.2rem;
