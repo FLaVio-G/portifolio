@@ -11,7 +11,7 @@ import { SiInkscape } from 'react-icons/si';
 function Skills() {
   return (
 
-    <Container>
+    <Container  id='skills'>
       <Title>
         Habilidades
       </Title>

@@ -4,10 +4,9 @@ import { Container, Information, Description, Gbutton, Formation, Name } from ".
 function Informations() {
   return (
 
-    <Container>
+    <Container  id='informations'>
       <Information >
         <Formation>Front-End Developer React js | Bachelor in Information Systems</Formation>
-        <Name>Flávio Viana</Name>
         <Description>
           Sou profissional da área de Sistemas de informação,
           estou estudando desenvolvimento web. 

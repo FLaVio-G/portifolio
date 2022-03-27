@@ -6,7 +6,9 @@ flex-direction: column;
 width:100%;
 justify-content:center;
 align-items:center;
-margin-top: 15rem;
+padding: 15rem 1.5rem;
+
+
   `
 export const Wrapper = styled.div`
     margin-top:1rem;

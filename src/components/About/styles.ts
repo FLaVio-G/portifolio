@@ -2,17 +2,22 @@ import { BsGithub } from 'react-icons/bs';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 100%;
-height: 100vh;
+width: 90%;
 display: flex;
 align-items: center;
-padding:0 5rem;
+padding: 4.5rem 1.5rem;
 justify-content: space-evenly;
-margin-top: 15rem;
- 
   `;
 
 export const Wrapper = styled.div`
+display: flex;
+@media screen and (max-width: 1079px){
+       display: flex;
+       flex-direction: column;
+       padding-bottom: 35rem;
+       padding:0 1.5rem;
+        
+    }
 
  
   `;
@@ -21,7 +26,7 @@ export const ImageArea = styled.div`
  
   `;
 export const AreaInfo = styled.div`
- 
+ margin-left: 1rem;
  width: 60rem;
  
   `;
@@ -30,12 +35,12 @@ export const Title = styled.div`
   display: flex;
   justify-content: start;
   color: white;
-  font-size: 5rem;
+  font-size:  2rem;
   `;
 
 export const Title2 = styled.div`
   color: white;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size:1.5rem;
   `;
 
@@ -57,9 +62,13 @@ export const InfoDetail = styled.div`
   `;
 
 export const ImageF = styled.div`
+display: flex;
+justify-content: center;
 
 `;
 export const ImageUser = styled.img`
+display: flex;
+justify-content: center;
 border-radius: 100%;
 width: 500px;
 height: 500px;
@@ -67,6 +76,9 @@ border-color: #202833;
 outline: 0.3rem solid red;
 border: 1rem outset #202833;
 
+@media screen and (max-width: 1120px){
+        width: 350px;
+    }
 
   `;
 

@@ -11,7 +11,7 @@ const User = require("../../assets/flavio.jpg")
 function About() {
   return (
 
-    <Container>
+    <Container  id='About'>
 
       <Wrapper>
         <ImageArea>
@@ -31,7 +31,7 @@ function About() {
           </BarDetail>
           
         </ImageArea>
-      </Wrapper>
+   
 
       <AreaInfo>
         <Title>
@@ -41,9 +41,9 @@ function About() {
           Conheça um pouco sobre a minha história
         </Title2>
         <MoreInfo>
-          Olá meu nome é Flávio, sou apaixonado por computação. Meu primeiro contato com esse mundo foi quando
-          meu avô comprou um computador para minha família, pórem não veio com sistema operacional instalado, a partir daí começou essa saga, sendo a primeira
-          fase desse jogo, instalar o windows XP!
+          Olá meu nome é Flávio, sou apaixonado por tecnologia. Meu primeiro contato com esse mundo, foi quando
+          meu avô comprou um computador para minha família, pórem não veio com sistema operacional instalado. A partir daí começou minha saga, sendo a primeira
+          fase, instalar o windows XP!
           <br/>
           <br/>
           Atualmente sou formado em Sistemas de informação, estou estudando desenvolvimento Front-end para desenvolvimento de projetos web.
@@ -60,6 +60,7 @@ function About() {
         </InfoDetail> */}
 
       </AreaInfo>
+      </Wrapper>
     </Container>
 
 

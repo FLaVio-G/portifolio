@@ -3,9 +3,9 @@ import { Card, Container, Subtitle, Title, Wrapper} from "./styles";
 function Projects() {
   return (
  
-    <Container>
+    <Container id='projects'>
 
-      <Title>Portifolio</Title> 
+      <Title>Portfolio</Title> 
 
       <Wrapper>
 

@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.nav`
-    width: 100%;
-    height: 10rem;
-    margin-top: 15rem;
+    width: 90%;
+    height: 5rem;
+    margin-top: 10rem;
     display: flex;
     align-items: center;
     justify-content:flex-end;

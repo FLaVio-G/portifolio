@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 100%;
+width: 90%;
+max-width: 980px;
 height: 100vh;
 display: flex;
 align-items: center;
-padding:0 5rem;
+padding: 15rem 1.5rem;
 
   `;
 
@@ -14,7 +15,13 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: left;
-margin: 10rem;
+
+@media screen and (max-width: 769px){
+        width: 100%;
+        padding:0 1.5rem;
+    }
+
+
 
   `;
 
@@ -23,6 +30,10 @@ width: 45rem;
 color: #E6E7F4;
 opacity: 0.5;
 font-size:2.3rem;
+
+@media screen and (max-width: 1120px){
+        width: 100%;
+    }
 
   `;
 
