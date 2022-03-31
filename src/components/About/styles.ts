@@ -2,7 +2,7 @@ import { BsGithub } from 'react-icons/bs';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 90%;
+width: 100%;
 display: flex;
 align-items: center;
 padding: 4.5rem 1.5rem;
@@ -11,23 +11,23 @@ justify-content: space-evenly;
 
 export const Wrapper = styled.div`
 display: flex;
+width: 85%;
 @media screen and (max-width: 1079px){
        display: flex;
        flex-direction: column;
-       padding-bottom: 35rem;
-       padding:0 1.5rem;
         
     }
 
  
   `;
 export const ImageArea = styled.div`
-
+margin-right: 1rem;
  
   `;
 export const AreaInfo = styled.div`
- margin-left: 1rem;
- width: 60rem;
+ width: 100%;
+  text-align: justify;
+    letter-spacing: 1px;
  
   `;
 
@@ -77,8 +77,14 @@ outline: 0.3rem solid red;
 border: 1rem outset #202833;
 
 @media screen and (max-width: 1120px){
-        width: 350px;
+        width: 250px;
+        height: 250px;
     }
+    @media screen and (max-width: 1678px){
+        width: 350px;
+        height: 350px;
+    }
+    
 
   `;
 
@@ -97,6 +103,17 @@ color: white;
 margin-left: 1rem;
 margin-right:1rem;
 font-size:1rem;
+animation: go-back 1s infinite alternate;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateX(15px) scale(1.5);
+  }
+
 `;
 
 export const MoreInfo2 = styled.div`
@@ -107,6 +124,9 @@ justify-content:center;
 color: white;
 `;
 
+export const CaseIcon = styled.div`
+
+`
 
 
 

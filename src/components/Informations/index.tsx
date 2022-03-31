@@ -6,16 +6,17 @@ function Informations() {
 
     <Container  id='informations'>
       <Information >
-        <Formation>Front-End Developer React js | Bachelor in Information Systems</Formation>
+        <Formation>Front-End Developer | Bachelor in Information Systems</Formation>
         <Description>
           Sou profissional da área de Sistemas de informação,
-          estou estudando desenvolvimento web. 
+          com experiência em desenvolvimento web. 
         </Description>
        
-        <Gbutton>Entre em contato</Gbutton>
       </Information >
-     
-   
+      
+      <a href="https://www.linkedin.com/in/fl%C3%A1vioviana113/">   
+      <Gbutton>Entre em contato</Gbutton>
+      </a>
     </Container>
     
 

@@ -6,7 +6,7 @@ flex-direction: column;
 width:100%;
 justify-content:center;
 align-items:center;
-padding: 15rem 1.5rem;
+padding: 4.5rem 1.5rem;
 
 
   `
@@ -28,6 +28,8 @@ export const Wrapper = styled.div`
 
 export const SkillLane = styled.div`
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
   margin:0 auto;
   padding: 2.5rem 1rem;
@@ -41,6 +43,15 @@ export const Title = styled.div`
     color: white;
   `;
 
+
+export const title2 = styled.div`
+  color: white;
+  margin-top: 1.5rem;
+  font-size:1.5rem;
+  text-align: justify;
+  letter-spacing: 0.1rem;
+  opacity: 0.8;
+  `;
 
 
 

@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 90%;
-max-width: 980px;
-height: 100vh;
-display: flex;
-align-items: center;
-padding: 15rem 1.5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 4.5rem 1.5rem;
+  padding-top:6rem;
+
 
   `;
 
@@ -15,14 +17,13 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: left;
+padding: 0px 1.5rem;
 
-@media screen and (max-width: 769px){
-        width: 100%;
-        padding:0 1.5rem;
+
+@media screen and (max-width: 1140px){
+        justify-content: center;
+        align-items: center;
     }
-
-
-
   `;
 
 export const Description = styled.div`
@@ -49,9 +50,8 @@ color: white;
 
 
 export const Gbutton = styled.div`
-  position: relative;
-  width: 37%;
-  display: block;
+  width: 280px;
+  height: auto;
   color: white;
   font-size: 14px;
   text-decoration: none;
@@ -61,12 +61,29 @@ export const Gbutton = styled.div`
   text-transform: uppercase;
   overflow: hidden;
   transition: 1s all ease;
+  margin-left: 1.5rem;
+  animation: go-back 1s infinite alternate;
+  
 
 
     &:hover {
-        filter:brightness(0.9);
+        filter:brightness(1);
+        color: red;
+        text-decoration: 999;
+        cursor: pointer;
 
+        
     }
+  
+}
+
+@keyframes go-back {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateX(10px) scale(1.2);
+  }
  
 `;
 

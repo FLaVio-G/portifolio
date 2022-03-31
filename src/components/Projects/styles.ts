@@ -5,7 +5,8 @@ export const Container = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 1.5rem;
+    padding: 4.5rem 1.5rem;
+
  
 
     
@@ -22,6 +23,12 @@ export const Card = styled.nav`
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     align-items: center;
     justify-content: center;
+    color: white;
+    margin-top: 1.5rem;
+    font-size:1.5rem;
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    opacity: 0.8;
   `;
 
 export const Subtitle = styled.nav`

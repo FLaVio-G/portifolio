@@ -3,6 +3,7 @@ import { AreaInfo, BarDetail, Container, ImageArea, ImageF, ImageUser, InfoDetai
 import { BsGithub } from 'react-icons/bs';
 import { FaLinkedin } from 'react-icons/fa';
 import { HiOutlineMailOpen } from 'react-icons/hi';
+import { Link } from "react-scroll";
 
 
 
@@ -23,10 +24,15 @@ function About() {
           <MoreInfo2>Flávio Viana</MoreInfo2>
 
           <BarDetail>
+            
+          <a href="https://github.com/KaTSu113">
+          <SubDetail > <BsGithub size={50} color="red"  /> </SubDetail>
+          </a> 
 
-          <SubDetail> <BsGithub size={50} color="red"  /> </SubDetail>
+          <a href="https://www.linkedin.com/in/fl%C3%A1vioviana113/">
           <SubDetail> <FaLinkedin size={50} color="red" /> </SubDetail>
-          <SubDetail> < HiOutlineMailOpen size={50} color="red" /> </SubDetail>
+          </a>
+
 
           </BarDetail>
           
