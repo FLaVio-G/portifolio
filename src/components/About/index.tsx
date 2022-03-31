@@ -52,7 +52,7 @@ function About() {
           fase, instalar o windows XP!
           <br/>
           <br/>
-          Atualmente sou formado em Sistemas de informação, estou estudando desenvolvimento Front-end para desenvolvimento de projetos web.
+          Atualmente sou formado em Sistemas de informação, estou estudando Front-end para desenvolvimento de projetos web.
           Através de projetos publicados no GitHub demonstro meu conhecimento em: ReactJS, NextJS e Frameworks para CSS, como Styled-Components.
           Espero como desenvolvedor ser além dos códigos, construir relações de cooperatividade no ambiente de trabalho, além de 
           sempre buscar novas formas de desenvolvimento, sendo a adaptabilidade uma das minhas principais metas!

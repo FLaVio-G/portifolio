@@ -5,7 +5,7 @@ function Projects() {
  
     <Container id='projects'>
 
-      <Title>Portfolio</Title> 
+      <Title> Portfólio</Title> 
 
       <Wrapper>
 
