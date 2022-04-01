@@ -2,7 +2,8 @@ import { AreaInfo, BarDetail, Container, ImageArea, ImageF, ImageUser, InfoDetai
 
 import { BsGithub } from 'react-icons/bs';
 import { FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMailOpen } from 'react-icons/hi';
+import { AiOutlineDribbble } from 'react-icons/ai';
+
 import { Link } from "react-scroll";
 
 
@@ -31,6 +32,10 @@ function About() {
 
           <a href="https://www.linkedin.com/in/fl%C3%A1vioviana113/">
           <SubDetail> <FaLinkedin size={50} color="red" /> </SubDetail>
+          </a>
+
+          <a href="https://dribbble.com/katsu113">
+          <SubDetail> <AiOutlineDribbble size={50} color="red" /> </SubDetail>
           </a>
 
 
