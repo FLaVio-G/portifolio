@@ -41,6 +41,11 @@ export const Title = styled.div`
     justify-content: center;
     align-items: center;
     color: white;
+
+  @media screen and (max-width: 414px){
+    font-size: 4.5rem;
+  font-weight: bold;
+    }
   `;
 
 
@@ -52,6 +57,8 @@ export const title2 = styled.div`
   letter-spacing: 0.1rem;
   opacity: 0.8;
   `;
+
+
 
 
 

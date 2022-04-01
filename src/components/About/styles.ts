@@ -48,7 +48,7 @@ export const Title2 = styled.div`
 export const MoreInfo = styled.div`
   color: white;
   margin-top: 1.5rem;
-  font-size:1.5rem;
+  font-size:1rem;
   text-align: justify;
   letter-spacing: 0.1rem;
   opacity: 0.8;

@@ -1,3 +1,4 @@
+import { Title2 } from "../About/styles";
 import { Container, Information, Description, Gbutton, Formation, Name } from "./styles";
 
 
@@ -15,7 +16,9 @@ function Informations() {
       </Information >
       
       <a href="https://www.linkedin.com/in/fl%C3%A1vioviana113/">   
-      <Gbutton>Entre em contato</Gbutton>
+      <Gbutton>
+     Entre em contato
+       </Gbutton>
       </a>
     </Container>
     

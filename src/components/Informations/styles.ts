@@ -42,27 +42,30 @@ export const Formation = styled.div`
 font-size:1.5rem;
 color: red;
 `;
+
 export const Name = styled.div`
 font-size:3.5rem;
 color: white;
 `;
 
-
-
 export const Gbutton = styled.div`
-  width: 280px;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 45px;
   color: white;
-  font-size: 14px;
   text-decoration: none;
+  font-size: 0.895em;
   margin: 30px 0;
   border: 2px solid #ff7675;
-  padding: 14px 60px;
-  text-transform: uppercase;
-  overflow: hidden;
   transition: 1s all ease;
   margin-left: 1.5rem;
   animation: go-back 1s infinite alternate;
+
+    
+    
+    
   
 
 
@@ -73,6 +76,9 @@ export const Gbutton = styled.div`
         cursor: pointer;
 
         
+    }
+    @media screen and (max-width: 357px){
+      width: 250px;
     }
   
 }
@@ -86,6 +92,9 @@ export const Gbutton = styled.div`
   }
  
 `;
+
+
+
 
 
 
