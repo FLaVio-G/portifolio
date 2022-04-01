@@ -7,7 +7,7 @@ function Informations() {
 
     <Container  id='informations'>
       <Information >
-        <Formation>Front-End Developer | Bachelor in Information Systems</Formation>
+        <Formation> Desenvolvedor Front-end | Bacharel em Sistemas de Informação</Formation>
         <Description>
           Sou profissional da área de Sistemas de informação,
           com experiência em desenvolvimento web. 

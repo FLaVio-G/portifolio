@@ -27,7 +27,6 @@ export const Card = styled.nav`
     margin-top: 1.5rem;
     font-size:1.5rem;
     text-align: justify;
-    letter-spacing: 0.1rem;
     opacity: 0.8;
   `;
 

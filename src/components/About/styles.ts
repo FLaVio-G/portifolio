@@ -40,7 +40,6 @@ export const CaseIcon = styled.div`
 export const AreaInfo = styled.div`
  width: 100%;
   text-align: justify;
-    letter-spacing: 1px;
  
   `;
 
@@ -63,7 +62,6 @@ export const MoreInfo = styled.div`
   margin-top: 1.5rem;
   font-size:1rem;
   text-align: justify;
-  letter-spacing: 0.1rem;
   opacity: 0.8;
   `;
 
@@ -91,8 +89,8 @@ border: 1rem outset #202833;
 
 
     @media screen and (max-width: 1678px){
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
     }
 
     @media screen and (max-width: 1120px){
@@ -107,7 +105,6 @@ export const BarDetail = styled.div`
   display: flex;
   justify-content: center;
   text-align: justify;
-  letter-spacing: 1rem;
   opacity: 0.8;
   margin-top: 1.5rem;
 
