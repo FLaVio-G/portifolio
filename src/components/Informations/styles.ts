@@ -63,12 +63,6 @@ export const Gbutton = styled.div`
   margin-left: 1.5rem;
   animation: go-back 1s infinite alternate;
 
-    
-    
-    
-  
-
-
     &:hover {
         filter:brightness(1);
         color: red;
@@ -78,7 +72,7 @@ export const Gbutton = styled.div`
         
     }
     @media screen and (max-width: 357px){
-      width: 250px;
+      width: 200px;
     }
   
 }

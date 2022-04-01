@@ -24,6 +24,19 @@ export const ImageArea = styled.div`
 margin-right: 1rem;
  
   `;
+
+export const MoreInfo2 = styled.div`
+margin-top: 2rem;
+display: flex;
+font-size:2.5rem;
+justify-content:center;
+color: white;
+`;
+
+export const CaseIcon = styled.div`
+
+`;
+
 export const AreaInfo = styled.div`
  width: 100%;
   text-align: justify;
@@ -116,17 +129,7 @@ animation: go-back 1s infinite alternate;
 
 `;
 
-export const MoreInfo2 = styled.div`
-margin-top: 2rem;
-display: flex;
-font-size:2.5rem;
-justify-content:center;
-color: white;
-`;
 
-export const CaseIcon = styled.div`
-
-`
 
 
 
