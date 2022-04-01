@@ -89,13 +89,15 @@ border-color: #202833;
 outline: 0.3rem solid red;
 border: 1rem outset #202833;
 
-@media screen and (max-width: 1120px){
-        width: 250px;
-        height: 250px;
-    }
+
     @media screen and (max-width: 1678px){
         width: 350px;
         height: 350px;
+    }
+
+    @media screen and (max-width: 1120px){
+        width: 300px;
+        height: 300px;
     }
     
 

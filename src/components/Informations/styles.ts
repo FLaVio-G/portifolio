@@ -52,7 +52,7 @@ export const Gbutton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 180px;
+  width: 150px;
   height: 45px;
   color: white;
   text-decoration: none;

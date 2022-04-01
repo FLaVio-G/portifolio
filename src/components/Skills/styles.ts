@@ -43,7 +43,7 @@ export const Title = styled.div`
     color: white;
 
   @media screen and (max-width: 414px){
-    font-size: 3.8rem;
+    font-size: 3.5rem;
   font-weight: bold;
     }
   `;
