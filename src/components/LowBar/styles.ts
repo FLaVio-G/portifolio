@@ -26,9 +26,7 @@ color: #E6E7F4;
 opacity: 0.5;
 font-size:1.3rem;
 
-@media screen and (max-width: 659px){
-    font-size:1rem;
-    }
+
 
 
 .lavinia{
@@ -37,6 +35,7 @@ font-size:1.3rem;
   margin-left: 0.5rem;
   color: white;
   text-decoration: none;
+   
 
   &:hover {
         filter:brightness(1);
@@ -44,8 +43,23 @@ font-size:1.3rem;
         text-decoration: 999;
         cursor: pointer;
 
+    
         
   }
+  @media screen and (max-width: 510px){
+    font-size:0.8rem;
+    }
+
+    @media screen and (max-width: 510px){
+    font-size:0.7rem;
+    }
+    
+    @media screen and (max-width:  354px){
+    font-size:0.6rem;
+    }
+    
+   
+
 
   
 }
