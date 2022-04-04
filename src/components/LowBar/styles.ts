@@ -13,7 +13,8 @@ export const Container = styled.nav`
     width: auto;
     border-bottom-color:red;
 
-    
+   
+ 
   `;
 
 export const Title = styled.div`
@@ -25,13 +26,17 @@ color: #E6E7F4;
 opacity: 0.5;
 font-size:1.3rem;
 
+@media screen and (max-width: 659px){
+    font-size:1rem;
+    }
+
+
 .lavinia{
-  font-size:1.3rem;
+
+  font-size:1rem;
   margin-left: 0.5rem;
   color: white;
-  transition: 1s all ease;
-  animation: go-back 1s infinite alternate;
-
+  text-decoration: none;
 
   &:hover {
         filter:brightness(1);
@@ -41,21 +46,9 @@ font-size:1.3rem;
 
         
   }
+
   
 }
-
-@keyframes go-back {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateX(10px) scale(1.2);
-  }
- 
-
-}
-
-
 
   `;
   
