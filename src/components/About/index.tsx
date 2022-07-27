@@ -53,8 +53,10 @@ function About() {
         </Title2>
         <MoreInfo>
           Olá meu nome é Flávio, sou apaixonado por tecnologia. Meu primeiro contato com esse mundo, foi quando
-          meu avô comprou um computador para minha família, pórem não veio com sistema operacional instalado. A partir daí começou minha saga, sendo a primeira
-          fase, instalar o windows XP!
+          meu avô comprou um computador para minha família, pórem sempre ele tinha que chamar um técnico para resolver os problemas 
+          que ocorriam, então eu comecei a acompanhar todas as manuntenções. Vocês devem imaginar o final dessa história kkk, me tornei o menino da T.I 
+          do bairro, e sempre tinha uns trocados para comprar doces!
+          `
           <br/>
           <br/>
           Atualmente sou formado em Sistemas de informação, estou estudando Front-end para desenvolvimento de projetos web.
